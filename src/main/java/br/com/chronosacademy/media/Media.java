@@ -6,6 +6,7 @@ public class Media {
         if (media < 5){
             return "Reprovado";
         }
+        System.out.println("");
         return "Aprovado";
     }
 }
